@@ -73,3 +73,4 @@ probable_places = {} #самый вероятный адрес для орган
             probable_places[org] = loc
         if connections[org][loc] > connections[org][probable_places[org]]:
             probable_places[org] = loc
+print(probable_places)
